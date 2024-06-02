@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My File App</string>
+
+    <string name="Open_Drawer">Open Navigation Drawer</string>
+    <string name="Close_Drawer">Close Navigation Drawer</string>
+    <string name="nav_home">nav_home</string>
+</resources>
