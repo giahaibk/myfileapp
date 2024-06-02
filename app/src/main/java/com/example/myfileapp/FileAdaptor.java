@@ -56,17 +56,17 @@ public class FileAdaptor extends RecyclerView.Adapter<FileViewHolder> {
             holder.imgFile.setImageResource(R.drawable.ic_pdf);
         }
         else if (file.get(position).getName().toLowerCase().endsWith(".doc")
-                ||file.get(position).getName().toLowerCase().endsWith(".docx"))
+                || file.get(position).getName().toLowerCase().endsWith(".docx"))
         {
             holder.imgFile.setImageResource(R.drawable.ic_docs);
         }
         else if (file.get(position).getName().toLowerCase().endsWith(".mp3")
-                ||file.get(position).getName().toLowerCase().endsWith(".wav"))
+                || file.get(position).getName().toLowerCase().endsWith(".wav"))
         {
             holder.imgFile.setImageResource(R.drawable.ic_music);
         }
         else if (file.get(position).getName().toLowerCase().endsWith(".mp4")
-                ||file.get(position).getName().toLowerCase().endsWith(".wkv"))
+                || file.get(position).getName().toLowerCase().endsWith(".wkv"))
         {
             holder.imgFile.setImageResource(R.drawable.ic_play);
         }
